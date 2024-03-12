@@ -21,7 +21,7 @@ namespace ConsoleAppMedia
             {
                 Console.WriteLine("Aluno aprovado");
             }
-            else if (media <= 7 && media > 4 || porcentagem <= 75)
+            else if (media <= 7 && media > 4  && porcentagem >= 75 || porcentagem <= 75)
             {
                 Console.WriteLine("Aluno de Recuperação");
                 Console.ReadLine();
